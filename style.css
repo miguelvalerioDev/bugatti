@@ -1,0 +1,150 @@
+body{
+    background-color:gray;
+    color:white;
+}
+.bordacima{
+    background-color:black;
+    position:absolute;
+    min-width: 100%;
+    height: 100px;
+top:0px;
+right: 0px;
+}
+.bordacima h1{
+color:white
+}
+
+.rowcima{
+    display:flex;
+    flex-direction:row;
+
+}
+
+#carros{
+    position:absolute;
+    top:5px;
+    right:1100px;
+    font-family:'Sekuya';
+
+}
+#historia{
+position:absolute;
+top:5px;
+right:1400px;
+font-family:'Sekuya';
+}
+
+#historia:hover, #carros:hover{
+transform: scale(1.02);
+transition: all 0.3s ease;
+}
+
+#logo{
+    margin-top:5px;
+    
+}
+
+#video{
+      position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+}
+
+.centro{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.centro h1{
+    font-size:80px;
+    position: absolute;
+    top:200px;
+    font-family: 'Bebas Neue';
+}
+
+
+.centro a{
+position: absolute;
+    top:500px;
+font-family: 'Smooch sans';
+background-color: rgba(153, 153, 153, 0.5);
+opacity: 1px;
+border-radius:30px;
+padding: 10px 15px;
+color: black;
+text-decoration: none;
+font-size: 20px;
+}
+
+.centro a:hover{
+background-color: white;
+transition: all 0.5 ease;
+color:black;
+}
+
+#logo2{
+    position: absolute;
+    top: 100px;
+
+}
+
+.texto{
+font-size: 30px;
+max-width:1000px;
+max-height: 300px;
+font-family: 'IBM Plex Sans';
+position: absolute;
+top:550px;
+left:500px;
+bottom: 30px;
+}
+
+.hist h1{
+position: absolute;
+top:50px;
+left:500px;
+font-family: 'Bebas neue';
+font-size:200px;
+letter-spacing: 4px;
+
+}
+
+.video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+}
+
+.texto h{
+color:rgb(95, 94, 94);
+gap:0px;
+}
+
+#carro2{
+position:absolute;
+top:900px;
+left:300px;
+border-radius: 5px;
+}
+
+#carro2{
+position:absolute;
+top:900px;
+left:400px;
+
+}
+
