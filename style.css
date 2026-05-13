@@ -148,3 +148,17 @@ left:400px;
 
 }
 
+#antigo{
+    position: absolute;
+    top: 1400px;
+    left: 400px;
+    background-color: azure;
+    padding: 10px;
+}
+
+#aatexto{
+ position: absolute;
+    top: 1500px;
+    left: 400px;
+}
+
